@@ -1,67 +1,51 @@
-//package Doubly-LL.Insert At Tail;
+public class insertAtTail{
+  /*
+  * Given a linked list and an integer x, the task is to insert a new node with data x at the tail of the linked list.
+  * Insert a node at the tail of a linked list.
+  */
+   public static class Node{
+    int data;
+    Node next;
+    Node prev;
 
-public class insertAtTail {
-    public static class Node{
-        int data;
-        Node next,prev;
+    Node(int data){
+      this.data = data;
 
-        Node(int data){
-            this.data = data;
-            this.next = null;
-            this.prev = null;
-            }
-        }
-        public static Node  InsertAtTail(Node tail,int x){
-          Node t = new Node(x);
-            if(tail==null){
-            tail = t;
-          } else {
-           Node temp = tail;
-           while(temp.next != null){
-            temp=temp.next;
-           }
-
-            
-            temp.next =t;
-           
-            t.prev = temp;
-                     }
-
-            return tail;
-                    } 
-          
-        public static void display(Node kuchbhi){
-            Node temp = kuchbhi;
-            while(temp.prev!=null){
-                System.out.print(kuchbhi.data+" ");
-                temp=temp.next;
-
-            }
-        }
-
-      public static void main(String[] args) {
-        
-    Node a = new Node(11);
-    Node b = new Node(22);
-    Node c = new Node(33);
-        a.prev = null;
-        a.next = b;
-        b.prev = a;
-        b.next = c;
-        c.prev = b;
-        c.next = null;
-        
-        
-    
-    System.out.println("Given Linked List:");
-    display(a);
-    System.out.println("\nElement to be inserted at the end of the linked list is : 9");
-    InsertAtTail(c,9);
-    System.out.println("\nLinked List after inserting an element at the end using Insertion Method :");
-    display(c);
-
-
-      }  
     }
+   }
+   static void insertatEND(Node tail , int x){
+       Node temp = new Node(x) ; 
+       tail.next = temp;
+       tail = temp;
+       
+   }
+       
+    public static  void display(Node kuchtohai){
+      while (kuchtohai!=null) {
+        System.out.print(kuchtohai.data + " ");
+        kuchtohai  = kuchtohai.next;
 
-
+      }
+       System.out.println(" ");
+     }
+     public static void main(String[] args) {
+      Node a = new Node(5);
+      Node b = new Node(10);
+      Node c = new Node(15);
+      Node d = new Node(22);
+      a.prev = null;
+      a.next = b;
+      b.prev = a;
+      b.next = c;
+      c.prev = b;
+      c.next = d;
+      d.prev = c;
+      d.next = null;
+      //insertion of element at the end of Linked List
+      System.out.println("The given Double Linked List is are : ");
+      display(a);
+      System.out.println("The Double Linked List after adding 30 at the tail of given list : ");
+      insertatEND(d,30);
+      display(a);
+     }
+}
