@@ -40,6 +40,14 @@ public class hashmapput {
         System.out.println("\n\nAfter Removing One Pair from the Hashmap");
         for (Map.Entry m1 : mp.entrySet())
         System.out.println("Key: " +m1.getKey()+" Value:"+m1.getValue());
+        //using of ifabsent it will add the entries only if the enteries is not added or not found.
+        mp.putIfAbsent("Balram",300);
+        mp.putIfAbsent("Balram",400);
+        System.out.println("\n\nUsing putifAbsent Method");
+        for (Map.Entry m2 : mp.entrySet())  //m2 is a variable 
+        System.out.println("Key: " +m2.getKey()+" Value:"
+        +"\""+m2.getValue()+"\"");
+        
 
 
     } 
