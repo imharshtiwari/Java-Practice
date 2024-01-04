@@ -44,7 +44,7 @@ public class hashmapput {
         mp.putIfAbsent("Balram",300);
         mp.putIfAbsent("Balram",400);
         System.out.println("\n\nUsing putifAbsent Method");
-        for (Map.Entry m2 : mp.entrySet())  //m2 is a variable 
+        for (Map.Entry m2 : mp.entrySet())  //m2 is a variable (use as itrater )
         System.out.println("Key: " +m2.getKey()+" Value:"
         +"\""+m2.getValue()+"\"");
         
