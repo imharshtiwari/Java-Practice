@@ -20,7 +20,7 @@ public class hashmapput {
      System.out.println(mp.get("Ram"));
      System.out.println(mp.get("Krishna"));
      System.out.println();
-     //Printing all the element in the Hashmap using for each loop
+     //Printing all the element in the Hashmap using for each loop...
      for (Map.Entry m : mp.entrySet())
      System.out.println("Key: " +m.getKey()+" Value:"+m.getValue());
      int key=15;//We are searching this Key in our Hasmap..
