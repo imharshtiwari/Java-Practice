@@ -7,7 +7,7 @@ public class hashmapput {
  
     public static void main(String[] args) {
             //Create an empty hash map by declaring object
-        // of string and integer type...
+        // of string and integer type....
     Map<String,Integer> mp = new HashMap<>();
 
     // adding elements to the Map
