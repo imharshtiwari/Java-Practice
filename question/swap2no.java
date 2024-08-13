@@ -9,7 +9,7 @@ public class swap2no {
         System.out.println("Enter second number");
         int b = sc.nextInt();
         
-        int temp = a;   //simplty using temp value
+        int temp = a;   //simplty using temp value and all settt !!!!!!
         a = b;
         b = temp;
         System.out.println("You have entered the value of a " + (a ));
