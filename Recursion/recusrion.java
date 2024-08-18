@@ -6,7 +6,7 @@ public class recusrion {
     return ;
      }
        System.out.println(n);
-       Cal(n+1);
+       Cal(n+1);                              //printing 1-10 number using recursion
 
     }
 
