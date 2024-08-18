@@ -1,6 +1,6 @@
 public class recusrion {
  
- public static void Cal(int n) {   //created a Cal function that perform following task
+ public static void Cal(int n) {   //created a Cal function that perform following task..
 
      if (n == 10) {
     return ;
