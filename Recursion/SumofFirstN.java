@@ -1,6 +1,6 @@
 public class SumofFirstN {
 
-    public static void FnNN(int i,int n , int sum){  //the sequence of the parameter should be same.
+    public static void FnNN(int i,int n , int sum){  //the sequence of the parameter should be same. as main function init.
     if (i==n){
         sum += i;
         System.out.println(sum);
