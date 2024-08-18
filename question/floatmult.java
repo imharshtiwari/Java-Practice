@@ -7,7 +7,8 @@ public class floatmult {
         float a = sc.nextFloat();
         System.out.println("Enter the 2nd digit in float");
         float b = sc.nextFloat();
-        float mul = a*b;
+        float mul = a*b;  //var name mul...
+        
         System.out.println("The product of the two numbers is "+mul);
     }
     
