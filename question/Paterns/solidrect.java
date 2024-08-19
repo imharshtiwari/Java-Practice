@@ -2,7 +2,7 @@ public class solidrect {
 
     public static void main(String[] args) {    // ****
                                                 // ****
-                                                // ****
+                                                // **** this pattern should be drwan
        int n = 4;
        int m = 5;
        for(int i = 0 ; i<=n ; i++){       //outer loop
