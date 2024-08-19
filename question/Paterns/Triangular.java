@@ -7,8 +7,8 @@ public class Triangular {
         System.out.println("Enter the no. you want to print in star");
         int n = sc.nextInt();
 
-        for(int i =  1; i <= n; i++) {    //Outer loop
-            for(int j = 1; j <= i; j++) {   //Inner loop
+        for(int i =  1; i <= n; i++) {    //Outer loop that govern row
+            for(int j = 1; j <= i; j++) {   //Inner loop , this loop govern coloumn
                 System.out.print("*");          
             } 
         System.out.println();
