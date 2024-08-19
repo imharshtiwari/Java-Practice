@@ -11,7 +11,7 @@ Daily Questions: A folder containing a new problem every day, along with its sol
 Data Structures: A folder containing implementations of various data structures such as arrays, linked lists, stacks, queues, trees, and graphs.
 Algorithms: A folder containing implementations of various algorithms such as sorting, searching, and graph traversal.
 How to use this repository
-Clone the repository using the command git clone https://github.com/Im-HarshTiwari/Java-Practice/.git
+Clone the repository using the command git clone https://github.com/Im-HarshTiwari/Java-Practice.git
 Navigate to the Daily Questions folder to find a new problem every day.
 Read the problem statement and try to solve it on your own.
 If you get stuck, refer to the solution provided.
