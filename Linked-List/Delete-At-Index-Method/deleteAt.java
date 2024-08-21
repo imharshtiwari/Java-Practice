@@ -14,7 +14,7 @@ public class deleteAt {
           Node head ;
           void InsertMethod(int idx, int value){
             Node ab = new Node(value);
-            Node temp = head ;   //for traverse we use this temp variable 
+            Node temp = head ;   //for traverse we use this temp variable ..
             for(int i=1;i<=idx-1;i++){
                 temp = temp.next;
             }
@@ -38,7 +38,7 @@ public class deleteAt {
                 temp = temp.next;    //when value is putted in idx suppose 4 then it goes to the loop nd perform idx-1 i.e 3
                                       //then assign temp = next value (3rd position value as temp.next)
             }
-              temp.next = temp.next.next;  //then return that temp.next value and jump to the next node address i.e temp.next.next 
+              temp.next = temp.next.next;  //then return that temp.next value and jump to the next node address {i.e temp.next.next }
           }
           
           void display(){

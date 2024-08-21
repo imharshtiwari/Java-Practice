@@ -7,7 +7,7 @@ public class hashmapput {
  
     public static void main(String[] args) {
             //Create an empty hash map by declaring object
-        // of string and integer type
+        // of string and integer type....
     Map<String,Integer> mp = new HashMap<>();
 
     // adding elements to the Map
@@ -20,10 +20,10 @@ public class hashmapput {
      System.out.println(mp.get("Ram"));
      System.out.println(mp.get("Krishna"));
      System.out.println();
-     //Printing all the element in the Hashmap using for each loop
+     //Printing all the element in the Hashmap using for each loop...
      for (Map.Entry m : mp.entrySet())
      System.out.println("Key: " +m.getKey()+" Value:"+m.getValue());
-     int key=15;//We are searching this Key in our Hasmap
+     int key=15;//We are searching this Key in our Hasmap..
      if(mp.containsKey(key))
      {
         Integer val=(Integer) mp.get(key);
@@ -44,7 +44,7 @@ public class hashmapput {
         mp.putIfAbsent("Balram",300);
         mp.putIfAbsent("Balram",400);
         System.out.println("\n\nUsing putifAbsent Method");
-        for (Map.Entry m2 : mp.entrySet())  //m2 is a variable 
+        for (Map.Entry m2 : mp.entrySet())  //m2 is a variable (use as itrater )
         System.out.println("Key: " +m2.getKey()+" Value:"
         +"\""+m2.getValue()+"\"");
         
