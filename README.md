@@ -1,7 +1,7 @@
 **Data Structures and Algorithms in Java**
 This repository contains my solutions to various data structures and algorithms problems in Java. I will be updating this repository daily with new problems and solutions.
 
-Why this project?
+**Why this project?**
 The goal of this project is to improve my problem-solving skills and to provide a resource for others to learn from. By solving a problem every day, I aim to become proficient in data structures and algorithms and to develop a strong foundation in programming.
 
 What's inside?
