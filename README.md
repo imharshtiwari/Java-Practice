@@ -7,7 +7,7 @@ The goal of this project is to improve my problem-solving skills and to provide 
 **What's inside?**
 This repository contains the following:
 
-Daily Questions: A folder containing a new problem every day, along with its solution in Java.
+*Daily Questions:* A folder containing a new problem every day, along with its solution in Java.
 Data Structures: A folder containing implementations of various data structures such as arrays, linked lists, stacks, queues, trees, and graphs.
 Algorithms: A folder containing implementations of various algorithms such as sorting, searching, and graph traversal.
 *How to use this repository*
