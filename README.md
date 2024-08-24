@@ -15,7 +15,7 @@ Clone the repository using the command git clone https://github.com/Im-HarshTiwa
 Navigate to the Daily Questions folder to find a new problem every day.
 *Read the problem statement and try to solve it on your own.*
 If you get stuck, refer to the solution provided.
-Practice regularly to improve your problem-solving skills.
+Practice regularly to improve your problem-solving skills..
 How to contribute
 If you want to contribute to this repository, you can do so by:
 
