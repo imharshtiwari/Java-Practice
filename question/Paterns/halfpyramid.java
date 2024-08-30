@@ -10,7 +10,7 @@ public class halfpyramid {
              System.out.print(" ");
             }  
               //print the star 2*i-1
-            for (int k = 1; k<2*n-i;k++){
+            for (int k = 1; k<=2*i-1;k++){
             System.out.print("*");  
         } 
 
@@ -19,7 +19,7 @@ public class halfpyramid {
 }
     
     public static void main(String[] args) {
-        System.out.println("Enter the no you want to print");
+        System.out.println("Enter the no you want to print ");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         calpy(n);
