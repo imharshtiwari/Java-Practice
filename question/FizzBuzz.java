@@ -1,5 +1,7 @@
-
-import java.util.*;
+/**
+ * The FizzBuzz class in Java prints numbers from 1 to 100, replacing multiples of 3 with "Fizz",
+ * multiples of 5 with "Buzz", and multiples of both with "FizzBuzz".
+ */
 
 public class FizzBuzz {
     public static void main(String[] args) {

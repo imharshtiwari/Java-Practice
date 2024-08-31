@@ -1,3 +1,6 @@
+/**
+ * This Java program reads an integer input from the user and prints the entered value.
+ */
 import java.util.Scanner;
 
 public class readndprint {

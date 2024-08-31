@@ -1,3 +1,6 @@
+/**
+ * This Java program takes two numbers as input from the user and calculates their sum.
+ */
 
 
 import java.util.*;

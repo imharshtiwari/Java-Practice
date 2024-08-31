@@ -1,3 +1,6 @@
+/**
+ * This Java program swaps the values of two numbers entered by the user using a temporary variable.
+ */
 import java.util.Scanner;
 
 public class swap2no {

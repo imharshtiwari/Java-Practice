@@ -1,3 +1,6 @@
+/**
+ * This Java program takes two float numbers as input from the user and calculates their product.
+ */
 import java.util.Scanner;
 
 public class floatmult {
