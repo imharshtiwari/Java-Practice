@@ -24,7 +24,7 @@ Practice regularly to improve your problem-solving skills..
 👉 *How to contribute..*
 If you want to contribute to this repository, you can do so by:
 
-Forking the repository and submitting a pull request with your solution to a problem.
+🤝 Forking the repository and submitting a pull request with your solution to a problem.
 Creating an issue with a new problem and its solution.
 Providing feedback on existing solutions.
 
