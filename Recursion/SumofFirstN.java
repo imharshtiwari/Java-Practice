@@ -14,7 +14,7 @@ public class SumofFirstN {
     }
 
     public static void main(String[] args) {
-      FnNN(1,5,0);
+      FnNN(1,5,0);     //fun call..
 
     }
     
