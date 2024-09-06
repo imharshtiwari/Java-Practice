@@ -5,7 +5,7 @@ This repository contains my solutions to various data structures and algorithms 
 The goal of this project is to improve my problem-solving skills and to provide a resource for others to learn from. By solving a problem every day, I aim to become proficient in data structures and algorithms and to develop a strong foundation in programming..
 
 💭 **What's inside?**
-This repository contains the following:
+This repository contains the following:-
 
 📝 *Daily Questions:* A folder containing a new problem every day, along with its solution in Java.
 
@@ -24,7 +24,7 @@ Practice regularly to improve your problem-solving skills.
 👉 *How to contribute..*
 If you want to contribute to this repository, you can do so by:
 
-Forking the repository and submitting a pull request with your solution to a problem.
+🤝 Forking the repository and submitting a pull request with your solution to a problem.
 Creating an issue with a new problem and its solution.
 Providing feedback on existing solutions.
 
