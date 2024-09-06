@@ -19,10 +19,10 @@ public class basic {
         }
     }
   public static class Node{
-    int data; //value      
-    Node next; //address of the node
+    int data;   //value      
+    Node next;   //address of the node
   
-    Node(int data){    //create a constructor
+    Node(int data){      //create a constructor
          this.data = data;
     }
 
