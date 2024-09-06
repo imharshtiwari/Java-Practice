@@ -1,1 +1,10 @@
-/Recursion/*.class
+# Ignore compiled Java class files
+*.class
+
+
+
+# Ignore VS-related files 
+/.vscode/
+
+# Ignore logs
+*.log
