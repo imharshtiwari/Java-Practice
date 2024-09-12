@@ -24,7 +24,7 @@
  }
  class MyCellPhone{
     void callNumber(int number){
-    System.out.println("calling" + number);
+    System.out.println("calling...." + number);
     };
     void pickCall(){
         System.out.println("Connecting..." );
@@ -70,9 +70,13 @@ public class Polymorphism {
     public static void main(String[] args) {
       // TODO code application logic here
       MyCamera cam = new MySmartPhone();
-      cam.takePicture();
-      cam.recordVideo();
+      cam.takePicture();     //Only MyCamera's methods are operational , smartphone use it as a camera
+      cam.recordVideo();  //
+      // cam.pickCall(); // now this will not be called because their is no need of calling fucntion while using camera
       cam.recordVideo4k();
+      MyCellPhone call = new MyCellPhone();
+      call.callNumber(1122);
+      call.pickCall();
 
      
 
