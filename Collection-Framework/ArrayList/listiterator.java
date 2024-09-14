@@ -14,7 +14,7 @@ public class listiterator {
      
       System.out.println(list); 
       
-      //iterator to traverse the list ..
+      //iterator to traverse the list ...
       
     
     }
