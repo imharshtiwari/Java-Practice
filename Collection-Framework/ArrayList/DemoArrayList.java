@@ -1,5 +1,5 @@
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class DemoArrayList {
     public static void main(String[] args) {
@@ -75,9 +75,17 @@ public class DemoArrayList {
         }
         System.out.println("After traversal: " + al);
          
-       for(int i = 0; i<al.size(); i++){   //using for loop  
+       for(int i = 0; i<al.size(); i++){   //using for loop  traversing the data
            System.out.println(al.get(i));
         }
+
+        Iterator u = al.iterator();
+        System.out.println(u);   //print implement class
+        while(u.hasNext()){
+            Object o = (Object) u.next();
+            System.out.println(o);
+        }
+
 
                  
 
