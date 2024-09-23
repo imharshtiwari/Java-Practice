@@ -81,11 +81,12 @@ public class DemoArrayList {
 
         Iterator u = al.iterator();
         System.out.println(u);   //print implement class
-        while(u.hasNext()){
+       // while(u.hasNext()){  //hasNext has two work 1st- has to check the element existance
+                            // Second one is to forward the iterator (record)
             Object o = (Object) u.next();
             System.out.println(o);
-        }
-
+     //   }  //it will print only the element itself 
+ 
 
                  
 
