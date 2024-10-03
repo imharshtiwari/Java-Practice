@@ -1,0 +1,1 @@
+abstract double area();
