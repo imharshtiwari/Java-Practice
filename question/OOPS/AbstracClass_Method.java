@@ -9,7 +9,7 @@ abstract class Shape{
    abstract double area();
    abstract double parameter();
      // Abstract method
-     // To be implemented in subclasses
+     // To be implemented in subclasses..
 }
 class Circle extends Shape{
     private double radius;
@@ -17,7 +17,7 @@ class Circle extends Shape{
     Circle(double radius){
         this.radius = radius;
     }
-    @Override
+    @Override     //Overrried becoz of same method name ssame,name,signuature
         double area(){
             return PI * radius * radius;   // π * r²
         }
