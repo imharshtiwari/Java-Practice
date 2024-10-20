@@ -2,8 +2,10 @@
     int a = 20;
     int b = 30;
 
+
    public void print() {
        System.out.println("a and b are: " + a + " " + b);
+       
    }
 }
 
@@ -28,5 +30,6 @@ public class over_poly {
         Child child = new Child();
         child.print();
       //  child.printAll();
+      
     }
 }

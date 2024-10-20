@@ -37,7 +37,7 @@ public class testHuman {
         human.jump();
         human.bite();
         human.Sleep();
-        human.Eat();  // Polymorphism in action. Monkey's methods are overridden in Human class.
+        human.Eat();  // Polymorphism in action. Monkey's methods are overridden in Human class..
         Monkey m = new Human();
     
         m.bite();  // Monkey calls this method when the user requests a bite ..
