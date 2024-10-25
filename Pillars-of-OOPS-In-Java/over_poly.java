@@ -17,7 +17,7 @@
    public void print() {
       
        System.out.println("a and b are: " + super.a + " " + b); //super used to refer to the parent class instance.
-       System.out.println(this.a);   //this keyword refers to the current class instance
+       System.out.println(this.a);   //this keyword refers to the current class instance..
    }
 
    public void printAll() {
